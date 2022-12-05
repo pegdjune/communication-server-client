@@ -13,8 +13,8 @@ jobs:
     - name: compilation de server
       run: cd server
     - run: gcc server/pserver.c -o server/pserver
-    - run: ./server/pserver
+#    - run: ./server/pserver
     - name: compilation de client
       run: cd client
     - run: gcc client/pclient.c -o client/pclient
-    - run: ./client/pclient peg 0.0.0.0
+#    - run: ./client/pclient peg 0.0.0.0
